@@ -27,6 +27,7 @@ const config = {
         'gray-light' : '#F1F5F9',
         'gray-cool' : '#E2E8F0',
         'black-blue' : '#0F172A',
+        'gainsboro' : '#dcdcdc',
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

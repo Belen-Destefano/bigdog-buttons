@@ -6,8 +6,8 @@ import { Button } from "./../components/ui/button"
 export default function Home() {
   return (
  
-    <main>
-      <div className="flex flex-col justify-center items-center mx-auto p-5 gap-2.5 border w-[199px] m-8 shadow-lg shadow-indigo-500/10">
+    <main className="flex flex-col justify-center items-center justify-items-center h-screen bg-slate-100">
+      <div className="flex flex-col justify-center items-center mx-auto p-5 gap-2.5 border w-[199px] m-8 shadow-lg shadow-indigo-500/20 bg-white">
 
         <Button variant="primary">Continue</Button>
 
