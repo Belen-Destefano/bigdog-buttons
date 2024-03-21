@@ -1,8 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
  
 @layer base {
+ /* Fuente Robert */
+  @font-face {
+    font-family: 'robertRegular';
+    src: url('../styles/fonts/RoobertRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-size: 14px ;
+    line-height: 23px;   
+  }
+  
+  @font-face {
+    font-family: 'robertItalic';
+    src: url('../styles/fonts/RoobertRegularItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-size: 14px ;
+    line-height: 23px;  
+  }
+
+  @font-face {
+    font-family: 'robertMedium';
+    src: url('../styles/fonts/RoobertMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-size: 14px ;
+    line-height: 23px;  
+  }
+
+  @font-face {
+    font-family: 'robertBold';
+    src: url('../styles/fonts/RoobertBold.ttf') format('truetype');
+    font-weight: 500;
+    font-size: 14px ;
+    line-height: 23px;  
+  }
+
+  /* Typography used with CSS for all buttons */
+  /* button {
+    font-family: 'robertRegular', sans-serif;
+  } */
+
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;

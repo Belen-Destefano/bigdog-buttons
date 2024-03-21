@@ -10,6 +10,12 @@ const config = {
 	],
   prefix: "",
   theme: {
+    fontFamily: {
+      'robertRegular': ['robertRegular', 'sans-serif'],      
+      'robertItalic': ['robertItalic', 'sans-serif'],      
+      'robertMedium': ['robertMedium', 'sans-serif'],      
+      'robertBold': ['robertBold', 'sans-serif'],      
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -28,6 +34,7 @@ const config = {
         'gray-cool' : '#E2E8F0',
         'black-blue' : '#0F172A',
         'gainsboro' : '#dcdcdc',
+       
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
